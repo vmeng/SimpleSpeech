@@ -9,16 +9,11 @@ This sample app includes source code and an Xcode project to show how to call th
 
 ## Setting up the project
 
-The SimpleSpeech Xcode project is already configured to link with the Speech SDK, but it needs a copy of the files from the Speech SDK distribution.  Follow these steps to add the latest SpeechKit to the project.
-
-1. Unzip the AT&T Speech SDK into its own folder.
-2. Copy the files `ATTSpeechKit.a` and `ATTSpeechKit.h` into the `ATTSpeechKit` subfolder of this sample app.
-3. Open the SimpleSpeech Xcode project.
-4. Expand the `ATTSpeechKit` group within the project window.  Both files should appear in black text, not red (which would indicate that Xcode can't find them).
+Done
 
 ## Running the sample
 
-Before building the sample app, you will need to add the configuration for your Speech API account: the URL of the service, your application's API key and API secret.  Set those values in `SpeechConfig.m`.   Before distributing your app to the public, make sure you add code to obfuscate those credentials.
+Done for configuration for your Speech API account: the URL of the service, your application's API key and API secret.  Set those values in `SpeechConfig.m`.   Before distributing your app to the public, make sure you add code to obfuscate those credentials.
 
 ## Understanding the speech code
 
